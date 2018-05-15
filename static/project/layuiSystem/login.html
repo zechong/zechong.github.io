@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登录页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="js/layui/css/layui.css">
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body style="height: 100%;background: url(images/bg.jpg) no-repeat 50% 0;">
+		<div class="login-form animated slideInDown">
+			<div class="form-title">
+				<img src="images/logo.png" />
+			</div>
+			<form class="layui-form" action="index.html">
+				<div class="layui-form-item">
+					<!--<label class="layui-form-label">用户名</label>-->
+					<div class="layui-input-block">
+						<input type="text" name="username1" id="username1" class="layui-input" autocomplete="off" placeholder="请输入用户名"/>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<!--<label class="layui-form-label">密码</label>-->
+					<div class="layui-input-block">
+						<input type="password" name="passwd1" id="passwd1" class="layui-input" autocomplete="off" placeholder="请输入登录密码" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+     					<input type="checkbox" name="rember" lay-skin="switch" lay-filter="switchTest" title="开关">
+     					<div class="layui-unselect layui-form-switch layui-form-onswitch" lay-skin="_switch"><em></em><i></i></div>
+     					<span style="color: #999;margin-left: 5px;color: #333;">记住密码</span>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<input type="submit" class="layui-btn layui-btn-normal layui-btn-big" value="登录" />
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/bootstrap/js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/layui/layui.js"></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script>
+			$("body").keydown(function() {
+	            if (event.keyCode == "13") {//keyCode=13是回车键
+	                $('input[type="submit"]').click();
+	            }
+	        });
+		</script>
+	</body>
+
+</html>

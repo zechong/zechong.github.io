@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>商品编辑</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="js/layui/css/layui.css">
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div id="modal-1" class="modal fade" style="display: none;" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+						<h4 class="modal-title">公告中心</h4>
+					</div>
+					<div class="modal-body">
+						<a href="article_details.html">1111</a>	
+					</div>
+					<div class="modal-footer">
+						<div class="panel-body">
+							共 1 条记录 1/1 页 <a href="#"> &nbsp;  &nbsp; 首 页 &nbsp; </a> <a class="pageup" href="#">上一页</a>    &nbsp;<a class="hot">1</a>   <a class="nextpage" href="#">下一页</a> <a href="#"> &nbsp; 末 页 &nbsp; </a>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo"/>
+			</div>
+			<div class="admin dropdown">
+				<a href="javascript:;" title="管理员操作" class="dropdown-toggle" data-toggle="dropdown" >
+					<img src="images/user.png" alt="user" />
+					<span>你好：建航！编号：1，今日银价：4.1500<i class="iconfont icon-moreunfold"></i></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="cart.html"><i class="iconfont icon-cart"></i>购物车</a></li>
+					<li><a href="personal.html"><i class="iconfont icon-account"></i>个人中心</a></li>
+					<li><a href="javascript:$('#modal-1').modal('show', {backdrop: 'fade'});"><i class="iconfont icon-text"></i>公告中心</a></li>
+					<li><a href="login.html"><i class="iconfont icon-set"></i>注销登录</a></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<a href="javascript:;" title="缩放侧导航"><i class="iconfont icon-navlist"></i></a>
+			</div>
+			<div class="skin dropdown">
+				<a href="javascript:;" title="换肤" class="dropdown-toggle" data-toggle="dropdown"></a>
+				<ul class="dropdown-menu">
+					<li><a href="javascript:replaceSkin('blue')">默认（蓝色）</a></li>
+					<li><a href="javascript:replaceSkin('black')">黑色</a></li>
+					<li><a href="javascript:replaceSkin('green')">绿色</a></li>
+					<li><a href="javascript:replaceSkin('red')">红色</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar animated">
+				<div class="navscroll">
+					<ul class="layui-nav layui-nav-tree" lay-filter="demo">
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-operation"></i>运营统计</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="work.html">业绩统计</a>
+								</dd>
+								<dd>
+									<a href="order.html">订单统计</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-all"></i>商品分类</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="index.html">商品列表</a>
+								</dd>
+								<dd>
+									<a href="index.html">纯银碗筷</a>
+								</dd>
+								<dd>
+									<a href="index.html">宝宝奶瓶</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-assessedbadge"></i>代理管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="agent.html">管理代理</a>
+								</dd>
+								<dd>
+									<a href="agent_com.html">代理关系修改</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-form"></i>订单管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="check_down.html">下级订单（审核）</a>
+								</dd>
+								<dd>
+									<a href="check_up.html">上级订单（待审核）</a>
+								</dd>
+								<dd>
+									<a href="order_list.html">订单列表</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-electronics"></i>后台管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="system_set.html">系统设置</a>
+								</dd>
+								<dd>
+									<a href="goods.html">商品管理</a>
+								</dd>
+								<dd>
+									<a href="category.html">商品分类</a>
+								</dd>
+								<dd>
+									<a href="pay.html">支付分类</a>
+								</dd>
+								<dd>
+									<a href="transport.html">运送分类</a>
+								</dd>
+								<dd>
+									<a href="admin_edit.html">管理员修改</a>
+								</dd>
+								<dd>
+									<a href="agent_level.html">代理等级管理</a>
+								</dd>
+								<dd>
+									<a href="article.html">文章管理</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-dropback"></div>
+			</div>
+			<div class="content">
+				<div class="page-title">
+					<div class="title-env">
+						<h1 class="title">商品编辑</h1>
+						<p class="description">请在此详细的输入您的商品信息</p>
+					</div>
+					<div class="breadcrumb-env">
+						<ol class="breadcrumb bc-1">
+							<li>
+								<a href="index.html"><i class="glyphicon glyphicon-home"></i>首页</a>
+							</li>
+							<li class="active">
+								<strong>商品编辑</strong>
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="agent-add">
+							<form class="layui-form" method="post">
+								<div class="layui-form-item">
+							    	<label class="layui-form-label">缩略图</label>
+							    	<div class="layui-input-block">
+							     		<input type="file" name="img" id="img" class="layui-input" style="height: auto;padding: 6px 30px 5px 10px;line-height: normal;">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">商品分类</label>
+							    	<div class="layui-input-block">
+							    		<select name="c_id">
+											<option value="">选择商品分类</option>
+											<option value="17" selected>纯银碗筷</option>
+											<option value="18">宝宝奶瓶</option>
+											<option value="19">精品手镯</option>
+											<option value="5">女士手链</option>
+											<option value="6">男士手链、手镯</option>
+											<option value="7">吊坠</option>
+											<option value="8">耳环耳钉戒指</option>
+											<option value="9">宝宝手镯</option>
+											<option value="10">DIY</option>
+											<option value="11">梳子款</option>
+											<option value="13">酒具</option>
+											<option value="12">保健杯</option>
+											<option value="14">茶具</option>
+											<option value="15">摆件</option>
+											<option value="20">包装物品</option>
+										</select>
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">商品标题</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="name" id="name" placeholder="请输入商品标题" value="纯筷子a01">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">商品克数</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="weight" id="weight" placeholder="请输入商品克数" value="18.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">总代理</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="price_le1" id="price_le1" placeholder="请输入价格" value="10.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">一级代理</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="price_le2" id="price_le2" placeholder="请输入价格" value="15.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">二级代理</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="price_le3" id="price_le3" placeholder="请输入价格" value="20.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">三级代理</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="price_le4" id="price_le4" placeholder="请输入价格" value="25.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							    	<label class="layui-form-label">分销代理</label>
+							    	<div class="layui-input-block">
+							     		<input type="text" class="layui-input" name="price_le5" id="price_le5" placeholder="请输入价格" value="30.00">
+							    	</div>
+							  	</div>
+							  	<div class="layui-form-item">
+							  		<div class="layui-input-block">
+									  	<div class="layui-tab layui-tab-card">
+										 	<ul class="layui-tab-title">
+												<li class="layui-this">商品详情</li>
+											</ul>
+											<div class="layui-tab-content" style="height: 100px;padding: 0;">
+												<div class="layui-tab-item layui-show">
+													<textarea class="layui-textarea" placeholder="请输入商品详情" name="descript" style="border: none;resize: none;">asdfasdfasdfasdf</textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							  	<div class="layui-form-item">
+							    	<div class="layui-input-block">
+							    		<button type="button" id="good_add" class="layui-btn">保存发布</button>
+							    		<a href="javascript:history.back(-1)"S class="layui-btn layui-btn-normal">返回</a>
+							    	</div>
+							  	</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/layui/layui.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+	</body>
+
+</html>

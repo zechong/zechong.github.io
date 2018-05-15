@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>订单列表</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="js/layui/css/layui.css">
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div id="modal-1" class="modal fade" style="display: none;" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+						<h4 class="modal-title">公告中心</h4>
+					</div>
+					<div class="modal-body">
+						<a href="article_details.html">1111</a>	
+					</div>
+					<div class="modal-footer">
+						<div class="panel-body">
+							共 1 条记录 1/1 页 <a href="#"> &nbsp;  &nbsp; 首 页 &nbsp; </a> <a class="pageup" href="#">上一页</a>    &nbsp;<a class="hot">1</a>   <a class="nextpage" href="#">下一页</a> <a href="#"> &nbsp; 末 页 &nbsp; </a>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo"/>
+			</div>
+			<div class="admin dropdown">
+				<a href="javascript:;" title="管理员操作" class="dropdown-toggle" data-toggle="dropdown" >
+					<img src="images/user.png" alt="user" />
+					<span>你好：建航！编号：1，今日银价：4.1500<i class="iconfont icon-moreunfold"></i></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="cart.html"><i class="iconfont icon-cart"></i>购物车</a></li>
+					<li><a href="personal.html"><i class="iconfont icon-account"></i>个人中心</a></li>
+					<li><a href="javascript:$('#modal-1').modal('show', {backdrop: 'fade'});"><i class="iconfont icon-text"></i>公告中心</a></li>
+					<li><a href="login.html"><i class="iconfont icon-set"></i>注销登录</a></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<a href="javascript:;" title="缩放侧导航"><i class="iconfont icon-navlist"></i></a>
+			</div>
+			<div class="skin dropdown">
+				<a href="javascript:;" title="换肤" class="dropdown-toggle" data-toggle="dropdown"></a>
+				<ul class="dropdown-menu">
+					<li><a href="javascript:replaceSkin('blue')">默认（蓝色）</a></li>
+					<li><a href="javascript:replaceSkin('black')">黑色</a></li>
+					<li><a href="javascript:replaceSkin('green')">绿色</a></li>
+					<li><a href="javascript:replaceSkin('red')">红色</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar animated">
+				<div class="navscroll">
+					<ul class="layui-nav layui-nav-tree" lay-filter="demo">
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-operation"></i>运营统计</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="work.html">业绩统计</a>
+								</dd>
+								<dd>
+									<a href="order.html">订单统计</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-all"></i>商品分类</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="index.html">商品列表</a>
+								</dd>
+								<dd>
+									<a href="index.html">纯银碗筷</a>
+								</dd>
+								<dd>
+									<a href="index.html">宝宝奶瓶</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-assessedbadge"></i>代理管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="agent.html">管理代理</a>
+								</dd>
+								<dd>
+									<a href="agent_com.html">代理关系修改</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-form"></i>订单管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="check_down.html">下级订单（审核）</a>
+								</dd>
+								<dd>
+									<a href="check_up.html">上级订单（待审核）</a>
+								</dd>
+								<dd>
+									<a href="order_list.html">订单列表</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;"><i class="iconfont icon-electronics"></i>后台管理</a>
+							<dl class="layui-nav-child">
+								<dd>
+									<a href="system_set.html">系统设置</a>
+								</dd>
+								<dd>
+									<a href="goods.html">商品管理</a>
+								</dd>
+								<dd>
+									<a href="category.html">商品分类</a>
+								</dd>
+								<dd>
+									<a href="pay.html">支付分类</a>
+								</dd>
+								<dd>
+									<a href="transport.html">运送分类</a>
+								</dd>
+								<dd>
+									<a href="admin_edit.html">管理员修改</a>
+								</dd>
+								<dd>
+									<a href="agent_level.html">代理等级管理</a>
+								</dd>
+								<dd>
+									<a href="article.html">文章管理</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-dropback"></div>
+			</div>
+			<div class="content">
+				<div class="page-title">
+					<div class="title-env">
+						<h1 class="title">订单列表</h1>
+						<p class="description">所有订单查询</p>
+					</div>
+					<div class="breadcrumb-env">
+						<ol class="breadcrumb bc-1">
+							<li>
+								<a href="index.html"><i class="glyphicon glyphicon-home"></i>首页</a>
+							</li>
+							<li class="active">
+								<strong>订单列表</strong>
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="order-list">
+							<form class="layui-form" method="post">
+								<div class="layui-form-item">
+									<div class="layui-inline">
+										<button type="button" class="layui-btn layui-btn-normal" id="reverse" style="margin-left: 0;margin-bottom: 4px;"><i class="iconfont icon-selected" style="vertical-align: middle;margin-right: 5px;"></i>全选</button>
+										<input type="submit" id="del_order" name="del_order" value="删除" style="margin-bottom: 4px;" class="layui-btn layui-btn-danger" onclick="return confirm('确定要删除吗？')">
+										<input type="submit" id="dcorder" name="dcorder" value="导出订单" style="margin-bottom: 4px;" class="layui-btn">
+									</div>
+									<div class="layui-inline" style="width: 100px;display: inline-block;">
+										<select style="font-size:14px;" name="status">
+											<option value="">请选择</option>
+											<option value="1">待发货</option>
+											<option value="2">交易成功</option>
+											<option value="3">已撤消</option>
+										</select>
+									</div>
+									<div class="layui-inline" style="width: 100px;display: inline-block;">
+										<select style="font-size:14px;" name="line_level">
+											<option value="0">所有订单</option>
+											<option value="1">下级订单</option>
+										</select>
+									</div>
+									<div class="layui-inline" style="width: 120px;display: inline-block;">
+										<i class="iconfont icon-calendar" style="position: absolute;right: 8px;top: 11px;color: #269ABC;"></i>
+										<input class="layui-input" name="start" onclick="layui.laydate({elem: this, festival: true})">
+									</div>
+									<div class="layui-inline" style="width: 120px;display: inline-block;">
+										<i class="iconfont icon-calendar" style="position: absolute;right: 8px;top: 11px;color: #269ABC;"></i>
+										<input class="layui-input" name="end" onclick="layui.laydate({elem: this, festival: true})">
+									</div>
+									<div class="layui-inline" style="width: 64px;display: inline-block;">
+										<input type="submit" name="sub" class="layui-btn layui-btn-normal" value="查询">
+									</div>
+								</div>
+							</form>
+							<div class="layui-form row">
+								<div class="col-sm-6">
+									<div class="layui-form-item" style="margin-bottom: 4px;">
+										显示
+										<div class="layui-inline" style="width: 50px;display: inline-block;vertical-align: baseline;margin: 0;">
+											<select name="ckdown_length" aria-controls="ckdown">
+												<option value="10">10</option>
+												<option value="25">25</option>
+												<option value="50">50</option>
+												<option value="100">100</option>
+												<option value="-1">全部</option>
+											</select>
+										</div>
+										条数据
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="layui-form-item" style="margin-bottom: 0;">
+										查找
+										<div class="layui-inline" style="width: 130px;display: inline-block;vertical-align: baseline;">
+											<input type="search" class="layui-input " placeholder="" aria-controls="ckdown">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="table-box">
+								<table cellspacing="0" class="table table-bordered table-striped">
+									<thead>
+										<tr role="row">
+											<th style="text-align: center; width: 25px;" width="5%" align="center" valign="middle" class="sorting_asc" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-sort="ascending" aria-label="选择: activate to sort column ascending">选择</th>
+											<th style="text-align: center; width: 125px;" width="6%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="订单号: activate to sort column ascending">订单号</th>
+											<th style="text-align: center; width: 25px;" width="10%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="线层: activate to sort column ascending">线层</th>
+											<th style="text-align: center; width: 64px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="订单发起人: activate to sort column ascending">订单发起人</th>
+											<th style="text-align: center; width: 54px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="客户名称: activate to sort column ascending">客户名称</th>
+											<th style="text-align: center; width: 95px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="配送方式: activate to sort column ascending">配送方式</th>
+											<th style="text-align: center; width: 51px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="订单状态: activate to sort column ascending">订单状态</th>
+											<th style="text-align: center; width: 95px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="下单时间: activate to sort column ascending">下单时间</th>
+											<th style="text-align: center; width: 152px;" width="15%" align="center" data-priority="1" class="sorting" tabindex="0" aria-controls="orderlist" rowspan="1" colspan="1" aria-label="操作: activate to sort column ascending">操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row">
+											<th style=" text-align:center;" align="center" class="sorting_1"><input name="check_ids[]" class="userid " type="checkbox" value="6"><input name="check" type="hidden" class="userid" value="122.15"></th>
+											<td style=" text-align:center;">201702131559356201</td>
+											<td style=" text-align:center;">1</td>
+											<td style=" text-align:center;">扶先生</td>
+											<!-- <td style=" text-align:center;"></td> -->
+											<td style=" text-align:center;">测试业绩6</td>
+											<td style=" text-align:center;">顺风快递偏远地区</td>
+											<td style=" text-align:center;">
+												交易成功 </td>
+
+											<td style=" text-align:center;">2017/02/13 15:59</td>
+											<td style=" text-align:center;">
+												<a href="order_details.html" style="color:#FF6633;">详情</a> &nbsp;
+												<a style="color:#FF6633;">已发货</a>
+												<a href="/index.php/Admin/Order/cancel.html?order_id=6" style="color:#FF6633;" onclick="return confirm('确定取消该订单吗？');">取消</a>
+
+												&nbsp;
+												<a href="/index.php/Admin/Order/del.html?order_id=6" style="color:#FF6633;" onclick="return confirm('确定删除该订单吗？');">删除</a>
+											</td>
+										</tr>
+										<tr role="row">
+											<th style=" text-align:center;" align="center" class="sorting_1"><input name="check_ids[]" class="userid" type="checkbox" value="5"><input name="check" type="hidden" class="userid" value="123.00"></th>
+											<td style=" text-align:center;">201702131558370996</td>
+											<td style=" text-align:center;">3</td>
+											<td style=" text-align:center;">喜羊羊</td>
+											<!-- <td style=" text-align:center;"></td> -->
+											<td style=" text-align:center;">测试业绩5</td>
+											<td style=" text-align:center;">顺风快递偏远地区</td>
+											<td style=" text-align:center;">
+												交易成功 </td>
+
+											<td style=" text-align:center;">2017/02/13 15:58</td>
+											<td style=" text-align:center;">
+												<a href="order_details.html" style="color:#FF6633;">详情</a> &nbsp;
+												<a style="color:#FF6633;">已发货</a>
+												<a href="/index.php/Admin/Order/cancel.html?order_id=5" style="color:#FF6633;" onclick="return confirm('确定取消该订单吗？');">取消</a>
+
+												&nbsp;
+												<a href="/index.php/Admin/Order/del.html?order_id=5" style="color:#FF6633;" onclick="return confirm('确定删除该订单吗？');">删除</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="pagination-body">
+								<span>共 7 条记录 1/1 页 </span>
+								<ul class="pagination">
+									<li class="disabled">
+										<a href="#">&laquo;</a>
+									</li>
+									<li class="active">
+										<a href="#">1</a>
+									</li>
+									<li>
+										<a href="#">2</a>
+									</li>
+									<li>
+										<a href="#">3</a>
+									</li>
+									<li>
+										<a href="#">4</a>
+									</li>
+									<li>
+										<a href="#">5</a>
+									</li>
+									<li>
+										<a href="#">&raquo;</a>
+									</li>
+								</ul>
+							</div>
+							<p style="clear: both;">
+								<a href="/index.php/Admin/Order/expOrder.html" class="layui-btn" style="margin-bottom:5px">导出待发货订单</a>&nbsp;&nbsp;&nbsp;
+								<a href="/index.php/Admin/Order/expOrderwc.html" class="layui-btn" style="margin-bottom:5px">导出已完成订单</a>&nbsp;&nbsp;&nbsp;
+								<a href="/index.php/Admin/Order/expOrderqx.html" class="layui-btn" style="margin-bottom:5px">导出已取消订单</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/layui/layui.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+	</body>
+
+</html>

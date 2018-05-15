@@ -1,0 +1,237 @@
+/*登录界面*/
+.login-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+	height: 400px;
+	width: 500px;
+	border-radius: 8px;
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 0 0 10px #999;
+	
+}
+.login-form .form-title {
+	width: 200px;
+	margin: 35px auto 20px;
+}
+.login-form .form-title img {
+	width: 100%;
+}
+.login-form .layui-form {
+    padding: 20px 45px 35px
+}
+.login-form .layui-form .layui-form-switch {
+    width: 60px;
+    height: 30px;
+    margin-top: 0;
+	line-height: 30px;
+}
+.login-form .layui-form .layui-form-switch i {
+    top: 6px;
+}
+.login-form .layui-form .layui-form-onswitch i {
+    left: 36px;
+}
+.login-form .layui-form  .layui-input-block {
+	margin-left: 0;
+}
+.login-form .layui-form  .layui-input-block input[type='submit']{
+	width: 100%;
+}
+@media (max-width: 640px) {
+	.login-form {
+		width: auto;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    margin: 70px 15px;
+	}
+	.login-form .form-title {
+	    margin: 35px auto 25px;
+	}
+	.login-form .layui-form {
+	    padding: 25px;
+	}
+}
+/*商品列表*/
+.content .content-title {
+	font-size: 2rem;
+	color: red;
+    margin: 10px 0px 20px;
+}
+.content .layui-input-inline {
+	display: inline-block;
+	margin-left: 0;
+}
+.content .goods .layui-input-inline {
+	width: 300px;
+} 
+.content .goods ul.row li {
+	margin-bottom: 15px;
+	transition: width 0.5s;
+}
+.content .goods ul.row li a:first-child {
+	display: block;
+	border: 1px solid #EEEEEE;
+	padding: 10px;
+	position: relative;
+	transition: border 0.5s;
+}
+.content .goods ul.row li a:hover {
+	border-color: dodgerblue;
+}
+.content .goods ul.row li a img {
+	max-width: 100%;
+}
+.content .goods ul.row li a img + p:after {
+	content: "——";
+	display: block;
+}
+.content .goods ul.row li a p {
+	font-size: 16px;
+	margin: 3px 0;
+	color: #666;
+}
+.content .goods ul.row li a p span {
+	color: coral;
+}
+.content .goods ul.row li a input[type='checkbox'] {
+	position: absolute;
+    right: 2px;
+    bottom: 3px;
+}
+.content .pagination-body {
+	float: right;
+	margin: 10px 0;
+}
+.content .pagination-body > span {
+	float: left;
+	margin: 7px 0;
+}
+.content .pagination-body ul {
+	float: left;
+	margin: 0 15px;
+}
+/*商品详情*/
+.content .goods-details form h3 {
+	font-size: 22px;
+	color: #333;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.content .goods-details form p {
+	color: #666;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.content .goods-details form p span {
+	color: coral;
+	font-size: 26px;
+}
+.content .goods-details form .buy {
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+}
+.content .goods-details form .buy .layui-form-label {
+	padding: 9px 0px;
+    width: 70px;
+}
+.content .goods-details form .buy .layui-input-block {
+	margin-left: 80px;
+}
+.content .goods-details form .buy .layui-input-block input[type='text'] {
+    display: inline-block;
+    text-align: center;
+    width: 45px;
+    padding: 0 10px;
+    vertical-align: bottom;
+    margin: 0 -4px;
+    border-radius: 0;
+}
+.content .goods-details form .buy .layui-input-block button.layui-btn-primary {
+    border-color: transparent;
+    background-color: #e6e6e6;
+    padding: 0 10px;
+}
+.content .goods-details .layui-tab {
+	margin: 10px;
+}
+/*运营统计*/
+.content .work .layui-input-inline,.content .order .layui-input-inline {
+	width: 115px;
+	margin-bottom: 4px;
+} 
+.content .table-box {
+	overflow-x: auto;
+}
+.table-bordered {
+	white-space: nowrap;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+	border-width: 1px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	vertical-align: middle;
+}
+/*代理管理*/
+.content .agent .layui-input-inline {
+	width: auto;
+	margin-bottom: 4px;
+}
+.content .agent-add .layui-form p {
+	color: indianred;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+.content .agent-add .layui-form-label {
+	width: 130px;
+}
+.content .agent-add .layui-input-block {
+	margin-left: 140px;
+}
+.content .layui-form-item .layui-input-block select.layui-select {
+	width: 30%;
+}
+@media (max-width: 650px) {
+	.content .goods .layui-input-inline {
+		width: auto !important;
+	}
+	.content .goods-details form .layui-input-inline {
+		width: 100%;
+	}
+	.content .pagination-body {
+		float: none;
+	    text-align: center;
+	}
+	.content .pagination-body > span {
+		float: none;
+		margin: 7px 0;
+		display: block;
+	}
+	.content .pagination-body ul {
+		float: none;
+		margin: 0 15px;
+	}
+	.content form .layui-form-item .layui-form-label {
+	    width: 100%;
+	    text-align: left;
+	    padding: 0;
+	}
+	.content form .layui-form-item  .layui-input-block {
+		margin-left: 0;
+	}
+	.content form .layui-form-item .layui-input-block input[type='submit'] {
+		width: 100%;
+	}
+	.content form .layui-form-item .layui-input-block select.layui-select {
+		width: 100%;
+	}
+}
+@media (max-width: 375px) { 
+	.content .content-title {
+		margin: 0px 0px 10px 8px;
+	}
+}
