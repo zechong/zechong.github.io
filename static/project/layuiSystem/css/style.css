@@ -196,6 +196,9 @@
 	width: 30%;
 }
 @media (max-width: 650px) {
+	.admin {
+		display: none;
+	}
 	.content .goods .layui-input-inline {
 		width: auto !important;
 	}

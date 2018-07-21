@@ -1,0 +1,95 @@
+{
+	"picList1":[{
+    	"imgSrc": "static/images/bg2.jpg",
+    	"imgDesc": "rem1"
+    },{
+    	"imgSrc": "static/images/bg1.jpg",
+    	"imgDesc": "rem2"
+    },{
+    	"imgSrc": "static/images/index_bg1.png",
+    	"imgDesc": "rem3"
+    },{
+    	"imgSrc": "static/images/head.jpg",
+    	"imgDesc": "rem4"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgDesc": "rem5"
+    },{
+    	"imgSrc": "static/images/index_bg.png",
+    	"imgDesc": "rem6"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgDesc": "详细信息1"
+    },{
+    	"imgSrc": "static/images/bg1.jpg",
+    	"imgDesc": "详细信息2"
+    },{
+    	"imgSrc": "static/images/index_bg.png",
+    	"imgDesc": "详细信息3"
+    },{
+    	"imgSrc": "static/images/head.jpg",
+    	"imgDesc": "详细信息4"
+    },{
+    	"imgSrc": "static/images/bg2.jpg",
+    	"imgDesc": "详细信息5"
+    },{
+    	"imgSrc": "static/images/index_bg1.png",
+    	"imgDesc": "详细信息6"
+    }],
+    "picList2":[{
+    	"imgSrc": "static/images/bg1.jpg",
+    	"imgDesc": "rem1"
+    },{
+    	"imgSrc": "static/images/bg2.jpg",
+    	"imgDesc": "rem2"
+    },{
+    	"imgSrc": "static/images/index_bg1.png",
+    	"imgDesc": "rem3"
+    },{
+    	"imgSrc": "static/images/head.jpg",
+    	"imgDesc": "rem4"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgDesc": "rem5"
+    },{
+    	"imgSrc": "static/images/index_bg.png",
+    	"imgDesc": "rem6"
+    },{
+    	"imgSrc": "static/images/bg1.jpg",
+    	"imgDesc": "rem1"
+    },{
+    	"imgSrc": "static/images/bg2.jpg",
+    	"imgDesc": "rem2"
+    },{
+    	"imgSrc": "static/images/index_bg1.png",
+    	"imgDesc": "rem3"
+    },{
+    	"imgSrc": "static/images/head.jpg",
+    	"imgDesc": "rem4"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgDesc": "rem5"
+    },{
+    	"imgSrc": "static/images/index_bg.png",
+    	"imgDesc": "rem6"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgDesc": "rem5"
+    }],
+    "projectList": [{
+    	"imgTitle": "layui后台操作系统",
+    	"imgSrc": "static/images/layui-system.png",
+    	"imgUrl": "static/project/layuiSystem/goods.html"
+    },{
+    	"imgTitle": "vue练手企业站",
+    	"imgSrc": "static/images/daiyun.png",
+    	"imgUrl": "static/project/daiyun/index.html"
+    },{
+    	"imgTitle": "vue+mint-ui练手移动端",
+    	"imgSrc": "static/images/mint-ui.png",
+    	"imgUrl": "static/project/mint-ui-wap/index.html"
+    },{
+    	"imgSrc": "static/images/pic.jpg",
+    	"imgUrl": ""
+    }]
+}
