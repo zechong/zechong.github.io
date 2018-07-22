@@ -1,80 +1,105 @@
 {
 	"picList1":[{
-    	"imgSrc": "static/images/bg2.jpg",
-    	"imgDesc": "rem1"
+    	"imgSrc": "static/images/muiapp1_1.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/bg1.jpg",
-    	"imgDesc": "rem2"
+    	"imgSrc": "static/images/muiapp1_2.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/index_bg1.png",
-    	"imgDesc": "rem3"
+    	"imgSrc": "static/images/muiapp1_3.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/head.jpg",
-    	"imgDesc": "rem4"
+    	"imgSrc": "static/images/muiapp1_4.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgDesc": "rem5"
+    	"imgSrc": "static/images/muiapp1_5.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/index_bg.png",
-    	"imgDesc": "rem6"
+    	"imgSrc": "static/images/muiapp1_6.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgDesc": "详细信息1"
+    	"imgSrc": "static/images/muiapp1_7.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/bg1.jpg",
-    	"imgDesc": "详细信息2"
+    	"imgSrc": "static/images/muiapp1_8.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/index_bg.png",
-    	"imgDesc": "详细信息3"
+    	"imgSrc": "static/images/muiapp1_9.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/head.jpg",
-    	"imgDesc": "详细信息4"
+    	"imgSrc": "static/images/muiapp1_10.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/bg2.jpg",
-    	"imgDesc": "详细信息5"
+    	"imgSrc": "static/images/muiapp1_11.png",
+    	"imgDesc": "muiapp1"
     },{
-    	"imgSrc": "static/images/index_bg1.png",
-    	"imgDesc": "详细信息6"
+    	"imgSrc": "static/images/muiapp1_12.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_13.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_14.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_15.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_16.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_17.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_18.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_19.png",
+    	"imgDesc": "muiapp1"
+    },{
+    	"imgSrc": "static/images/muiapp1_20.png",
+    	"imgDesc": "muiapp1"
     }],
     "picList2":[{
-    	"imgSrc": "static/images/bg1.jpg",
-    	"imgDesc": "rem1"
+    	"imgSrc": "static/images/muiapp2_1.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/bg2.jpg",
-    	"imgDesc": "rem2"
+    	"imgSrc": "static/images/muiapp2_2.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/index_bg1.png",
-    	"imgDesc": "rem3"
+    	"imgSrc": "static/images/muiapp2_3.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/head.jpg",
-    	"imgDesc": "rem4"
+    	"imgSrc": "static/images/muiapp2_4.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgDesc": "rem5"
+    	"imgSrc": "static/images/muiapp2_5.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/index_bg.png",
-    	"imgDesc": "rem6"
+    	"imgSrc": "static/images/muiapp2_6.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/bg1.jpg",
-    	"imgDesc": "rem1"
+    	"imgSrc": "static/images/muiapp2_7.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/bg2.jpg",
-    	"imgDesc": "rem2"
+    	"imgSrc": "static/images/muiapp2_8.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/index_bg1.png",
-    	"imgDesc": "rem3"
+    	"imgSrc": "static/images/muiapp2_9.png",
+    	"imgDesc": "muiapp2"
     },{
-    	"imgSrc": "static/images/head.jpg",
-    	"imgDesc": "rem4"
+    	"imgSrc": "static/images/muiapp2_10.png",
+    	"imgDesc": "muiapp2"
+    }],
+     "picList3":[{
+    	"imgSrc": "static/images/pcdata1_1.png",
+    	"imgDesc": "pcdata1"
     },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgDesc": "rem5"
+    	"imgSrc": "static/images/pcdata1_2.png",
+    	"imgDesc": "pcdata1"
     },{
-    	"imgSrc": "static/images/index_bg.png",
-    	"imgDesc": "rem6"
-    },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgDesc": "rem5"
+    	"imgSrc": "static/images/pcdata1_3.png",
+    	"imgDesc": "pcdata1"
     }],
     "projectList": [{
     	"imgTitle": "layui后台操作系统",
@@ -88,8 +113,5 @@
     	"imgTitle": "vue+mint-ui练手移动端",
     	"imgSrc": "static/images/mint-ui.png",
     	"imgUrl": "static/project/mint-ui-wap/index.html"
-    },{
-    	"imgSrc": "static/images/pic.jpg",
-    	"imgUrl": ""
     }]
 }
